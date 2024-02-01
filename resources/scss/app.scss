@@ -1,1 +1,27 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    background-color: #a4ac86;
+}
+h1{
+    font-family: 'Honk', system-ui;
+    font-size: 4rem;
+}
+.card{
+    background-color: #656d4a;
+    color: #a4ac86;
+    cursor: pointer;
+    h4{
+        font-weight: bold;
+    }
+    h6{
+        font-style: italic;
+    }
+    transition: 0.5s;
+    &:hover{
+        color: rgb(219, 219, 219);
+        background-color: #414833;
+        scale: 1.25;
+        z-index: 2;
+    }
+}
